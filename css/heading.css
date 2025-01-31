@@ -1,0 +1,8 @@
+.heading-type-01 {
+  color: var(--gray-gray-100, #000);
+  font-family: Pretendard;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
