@@ -16,9 +16,19 @@
     color: #aaa;
     font-size: 14px;
   }
-  &:focus {
+  &:hover {
     border-radius: 8px;
     border: 2px solid var(--primary-primary-50, #246beb);
     background: var(--gray-gray-0, #fff);
+  }
+  &.error {
+    border-radius: 8px;
+    border: 2px solid var(--system-danger-50, #eb003b);
+    background: var(--gray-gray-0, #fff);
+  }
+  &.read-only {
+    border-radius: 8px;
+    border: 1px solid var(--gray-gray-40, #c6c6c6);
+    background: var(--gray-gray-30, #d8d8d8);
   }
 }
