@@ -1,0 +1,12 @@
+.select{
+    display: flex;
+    height: 56px;
+    padding: 0px 16px;
+    border-radius: 8px;
+    border: 1px solid var(--gray-gray-60, #717171);
+    background: url(../images/select.svg) no-repeat right 16px center var(--gray-gray-0, #FFF);
+    padding-right: 44px;
+    align-items: center;
+    gap: 8px;
+    appearance: none;
+}
