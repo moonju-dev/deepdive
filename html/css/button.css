@@ -1,0 +1,54 @@
+.btn-primary{
+    display: inline-flex;
+height: 64px;
+padding: 0px 24px;
+border-radius: 8px;
+background: var(--primary-primary-50, #246BEB);
+justify-content: center;
+align-items: center;
+gap: 4px;
+flex-shrink: 0;;
+color: var(--gray-gray-0, #FFF);
+font-family: Pretendard;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+border: none;
+cursor: pointer;
+text-decoration: none;
+&:hover{
+    background: var(--primary-primary-60, #1D56BC);
+    }
+&:active{
+    background: var(--primary-primary-70, #14409B);
+    }
+    &:disabled{
+        background: var(--gray-gray-30, #D8D8D8);
+        color: var(--gray-gray-60, #717171);
+    }
+    &[aria-disabled="true"]{
+        background: var(--gray-gray-30, #D8D8D8);
+        color: var(--gray-gray-60, #717171);
+    }
+}
+
+.btn-back{
+    position: absolute;
+    left: 16px;
+    top: 16px;
+    width: 24px;
+    height: 24px;
+    background: url(../images/back.svg) no-repeat center;
+}
+
+.btn-close{flex: 1 0 0;
+color: var(--gray-gray-100, #000);
+font-family: Pretendard;
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%;
+text-align: center;;
+background: url(../images/close.svg) no-repeat center;
+}
