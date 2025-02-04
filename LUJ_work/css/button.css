@@ -1,0 +1,35 @@
+.btn-primary {
+  display: inline-flex;
+  height: 64px;
+  padding: 0px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: var(--primary-primary-50, #246beb);
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  &:hover {
+    border-radius: 8px;
+    background: var(--primary-primary-60, #1d56bc);
+  }
+  &:active {
+    border-radius: 8px;
+    background: var(--primary-primary-70, #16408d);
+  }
+  &:disabled {
+    background: var(--gray-gray-30, #d8d8d8);
+    color: var(--gray-gray-60, #717171);
+    cursor: not-allowed;
+  }
+  &[aria-disabled="true"] {
+    background: var(--gray-gray-30, #d8d8d8);
+    color: var(--gray-gray-60, #717171);
+    cursor: not-allowed;
+  }
+}
+
+.btn-play {
+}

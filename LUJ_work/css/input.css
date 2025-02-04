@@ -1,0 +1,17 @@
+.input {
+  display: flex;
+  width: 360px;
+  height: 56px;
+  padding: 0px 16px;
+  align-items: center;
+  gap: 8px;
+}
+
+&::placeholder {
+  display: flex;
+  width: 360px;
+  height: 56px;
+  padding: 0px 16px;
+  align-items: center;
+  gap: 8px;
+}
