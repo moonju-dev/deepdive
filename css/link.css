@@ -1,0 +1,16 @@
+.link-type1 {
+  color: var(--primary-primary-50, #246beb);
+  font-family: Pretendard;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+  leading-trim: both;
+  text-edge: cap;
+}
