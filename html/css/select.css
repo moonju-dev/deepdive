@@ -1,12 +1,29 @@
-.select{
-    display: flex;
-    height: 56px;
-    padding: 0px 16px;
-    border-radius: 8px;
-    border: 1px solid var(--gray-gray-60, #717171);
-    background: url(../images/select.svg) no-repeat right 16px center var(--gray-gray-0, #FFF);
-    padding-right: 44px;
-    align-items: center;
-    gap: 8px;
-    appearance: none;
+.select {
+  display: flex;
+  width: 360px;
+  height: 56px;
+  padding: 0px 16px;
+  border-radius: 8px;
+  border: 1px solid var(--gray-gray-60, #717171);
+  background: url("../../images/arrow-down.svg") no-repeat right 16px center
+    var(--gray-gray-0, #fff);
+  padding-right: 44px;
+  align-items: center;
+  gap: 8px;
+  appearance: none;
+  color: var(--gray-gray-90, #1d1d1d);
+  font-family: Pretendard;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 150%; /* 28.5px */
+}
+
+/* focus */
+.select:focus {
+}
+
+/* disabled */
+.select:disabled {
+  background-color: var(--gray-gray-30, #d8d8d8);
+  border: 1px solid var(--gray-gray-40, #c6c6c6);
 }
