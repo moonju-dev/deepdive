@@ -1,3 +1,6 @@
+button {
+  cursor: pointer;
+}
 .btn-primary {
   display: inline-flex;
   height: 64px;
