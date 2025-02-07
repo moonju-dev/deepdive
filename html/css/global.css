@@ -8,12 +8,8 @@
 @import url("./checkbox.css");
 @import url("./radio.css");
 @import url("./select.css");
-<<<<<<< HEAD
-@import url("./input.css");
-=======
 @import url("./switch.css");
 @import url("./input.css");
 
 /* page */
 @import url("./component.css");
->>>>>>> 2de47b24ee159b74ce659b65292a283cbc044755
