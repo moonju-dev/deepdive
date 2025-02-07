@@ -49,6 +49,11 @@
     font-weight: 400;
     line-height: 150%;
   }
+  &.min-width {
+    /* TODO: 버튼 최소 너비값, 좌우 여백 지정 필요 */
+    /* min-width: ;
+    padding-inline: ; */
+  }
 }
 
 .btn-back {

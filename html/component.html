@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="component">
-      <div class="component-container">
+      <div class="inner-container">
         <div class="title">
           <h2>마이리얼트림 컴포넌트</h2>
           <span>컴포넌트 페이지 입니다. 자유롭게 사용해주세요.</span>
@@ -17,7 +17,7 @@
 
         버튼가이드
         <button class="btn-primary">버튼</button>
-        <a href="#" class="btn-primary" disabled>버튼</a>
+        <a href="#" class="btn-primary min-width" disabled>버튼</a>
         <br />
         <br />
         <button class="btn-primary">버튼</button>
@@ -32,6 +32,16 @@
         <a href="#" class="btn-primary xsmall" aria-disabled="true">버튼</a>
         <br />
         <br />
+
+        <h3>텍스트 + 아이콘 버튼</h3>
+        <button class="btn-primary btn-icon">
+          버튼
+          <img src="../images/arrow-down.svg" alt="오른쪽 방향 아이콘" />
+        </button>
+
+        <h3>스위치 버튼</h3>
+        <input type="checkbox" id="switch1" class="switch" />
+        <label for="switch1" data-on="활성" data-off="비활성"></label>
 
         <button class="btn-back" aria-label="뒤로가기"></button>
         <button class="btn-close" aria-label="닫기"></button>
