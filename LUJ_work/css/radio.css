@@ -1,0 +1,27 @@
+:root {
+  --radioOffImage: url(../images/ico_more.svg);
+  --radioOnImage: url(../images/ico_play.svg);
+  --radioFontSize: 15px;
+  --radioBeforeColor: red;
+  --radioAfterColor: blue;
+  --radioPl: 20px;
+}
+.radio {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  + label {
+    display: inline-flex;
+    padding-left: var(--radioPl);
+    background: var(--radioOffImage) no-repeat left;
+    font-size: var(--radioFontSize);
+    color: var(--radioBeforeColor);
+  }
+  &:checked {
+    + label {
+      color: var(--radioAfterColor);
+      background: var(--radioOnImage) no-repeat left;
+    }
+  }
+}

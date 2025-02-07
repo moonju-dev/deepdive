@@ -1,0 +1,28 @@
+:root {
+  --checkoffImage: url(../images/ico_more.svg);
+  --checkonImage: url(../images/ico_play.svg);
+  --checkfontSize: 15px;
+  --checkbeforeColor: red;
+  --checkafterColor: blue;
+  --checkPl: 20px;
+  --checkHeight: 24px;
+}
+.checkbox {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  + label {
+    display: inline-flex;
+    padding-left: var(--checkPl);
+    background: var(--checkoffImage) no-repeat left;
+    font-size: var(--checkfontSize);
+    color: var(--checkbeforeColor);
+  }
+  &:checked {
+    + label {
+      color: var(--checkafterColor);
+      background: var(--checkonImage) no-repeat left;
+    }
+  }
+}
