@@ -21,3 +21,9 @@
 /* focus */
 .select:focus {
 }
+
+/* disabled */
+.select:disabled {
+  background-color: var(--gray-gray-30, #d8d8d8);
+  border: 1px solid var(--gray-gray-40, #c6c6c6);
+}
