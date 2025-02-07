@@ -1,14 +1,15 @@
 :root {
   --width: 100px;
   --height: 40px;
-  --padding: 2px;
-  --borderColor: gray;
-  --offColor: silver;
+  --padding: 5px;
+  --borderColor: var(--border-gray-40);
+  --offColor: var(--btn-disabled-bg);
   --offBgColor: rgba(0, 0, 0, 0.05);
-  --onColor: lightgreen;
-  --onBgColor: green;
-  --textColor: #000;
+  --onColor: var(--btn-active-bg);
+  --onBgColor: #d3e1fb;
+  --textColor: #var(--text-gray-90);
 }
+
 .switch {
   position: absolute;
   width: 1px;
@@ -59,7 +60,7 @@
 
       &::before {
         left: 100%;
-        translate: calc(-100% - 2px) -50%;
+        translate: calc(-100% - 5px) -50%;
         background-color: var(--onColor);
       }
       &::after {
