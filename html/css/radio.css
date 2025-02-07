@@ -1,26 +1,30 @@
 :root {
-  --offImage: url(../images/ico_more.svg);
-  --onImage: url(../images/ico_play.svg);
-  --fontSize: 15px;
-  --beforeColor: red;
-  --afterColor: blue;
-  --padding: 20px;
+  --radioOffImage: url("../../images/ico_radio_off.svg");
+  --radioOonImage: url("../../images/ico_radio_on.svg");
+  --radioFontSize: 19px;
+  --radioBeforeColor: var(--gray-gray-90, #1d1d1d);
+  --radioAfterColor: var(--gray-gray-90, #1d1d1d);
+  --radioPl: 32px;
+  --radioHeight: 24px;
 }
+
 .radio {
   position: absolute;
   width: 1px;
   height: 1px;
   overflow: hidden;
   + label {
-    padding-left: var(--padding);
-    background: var(--offImage) no-repeat left;
-    font-size: var(--fontSize);
-    color: var(--beforeColor);
+    display: inline-flex;
+    padding-left: var(--radioPl);
+    background: var(--radioOffImage) no-repeat left;
+    font-size: var(--radioFontSize);
+    color: var(--radioBeforeColor);
+    height: var(--radioHeight);
   }
   &:checked {
     + label {
-      color: var(--afterColor);
-      background: var(--onImage) no-repeat left;
+      color: var(--radioAfterColor);
+      background: var(--radioOonImage) no-repeat left;
     }
   }
 }
