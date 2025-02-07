@@ -1,0 +1,25 @@
+.component .inner-container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 100px 40px;
+}
+
+.component .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+  gap: 10px;
+}
+
+/* title */
+.title h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.title p {
+  font-size: 16px;
+}

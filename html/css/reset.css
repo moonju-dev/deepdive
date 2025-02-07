@@ -192,10 +192,6 @@ li {
   list-style: none;
 }
 
-a:focus {
-  outline: none !important;
-}
-
 a {
   text-decoration: none;
 }
@@ -237,14 +233,6 @@ button:hover {
 
 button {
   background: transparent;
-}
-
-textarea:focus {
-  outline: none;
-}
-
-:focus {
-  outline: none;
 }
 
 html {
