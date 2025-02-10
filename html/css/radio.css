@@ -1,6 +1,6 @@
 :root {
-  --radioOffImage: url("../../images/ico_radio_off.svg");
-  --radioOonImage: url("../../images/ico_radio_on.svg");
+  --radioOffImage: url("../../images/icon/ico-radio-off.svg");
+  --radioOonImage: url("../../images/icon/ico-radio-on.svg");
   --radioFontSize: 19px;
   --radioBeforeColor: var(--gray-gray-90, #1d1d1d);
   --radioAfterColor: var(--gray-gray-90, #1d1d1d);
