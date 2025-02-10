@@ -2,8 +2,8 @@
   --checkOffImage: url("../../images/ico_checkbox_off.svg");
   --checkOnImage: url("../../images/ico_checkbox_on.svg");
   --checkFontSize: 15px;
-  --checkBeforeColor: red;
-  --checkAfterColor: blue;
+  --checkBeforeColor: var(--text-gray-90);
+  --checkAfterColor: var(--text-gray-90);
   --checkPl: 20px;
   --checkHeight: 20px;
 }
