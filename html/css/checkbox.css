@@ -1,6 +1,6 @@
 :root {
-  --checkOffImage: url("../../images/ico_checkbox_off.svg");
-  --checkOnImage: url("../../images/ico_checkbox_on.svg");
+  --checkOffImage: url("../../images/icon/ico-checkbox-off.svg");
+  --checkOnImage: url("../../images/icon/ico-checkbox-on.svg");
   --checkFontSize: 15px;
   --checkBeforeColor: var(--text-gray-90);
   --checkAfterColor: var(--text-gray-90);

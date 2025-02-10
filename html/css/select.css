@@ -5,8 +5,8 @@
   padding: 0px 16px;
   border-radius: 8px;
   border: 1px solid var(--gray-gray-60, #717171);
-  background: url("../../images/arrow-down.svg") no-repeat right 16px center
-    var(--gray-gray-0, #fff);
+  background: url("../../images/icon/ico-arrow-down.svg") no-repeat right 16px
+    center var(--gray-gray-0, #fff);
   padding-right: 44px;
   align-items: center;
   gap: 8px;

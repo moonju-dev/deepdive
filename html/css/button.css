@@ -62,7 +62,7 @@
   top: 16px;
   width: 24px;
   height: 24px;
-  background: url(../images/back.svg) no-repeat center;
+  background: url("../../images/icon/ico-back.svg") no-repeat center;
 }
 
 .btn-close {
@@ -74,5 +74,5 @@
   font-weight: 700;
   line-height: 150%;
   text-align: center;
-  background: url(../images/close.svg) no-repeat center;
+  background: url("../../images/icon/ico-close.svg") no-repeat center;
 }
