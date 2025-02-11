@@ -8,3 +8,5 @@ includeHTML("/guide/radio.html", "#radio");
 includeHTML("/guide/select.html", "#select");
 includeHTML("/guide/button.html", "#button");
 includeHTML("/guide/input.html", "#input");
+includeHTML("/guide/chip.html", "#chip");
+includeHTML("/guide/dialog.html", "#dialog");
