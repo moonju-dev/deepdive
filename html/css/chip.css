@@ -1,3 +1,25 @@
+.chip1 {
+  display: flex;
+  height: 36px;
+  padding: 8px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  border-radius: 100px;
+  background: var(--primary-primary-10, #d3e1fb);
+
+  label {
+    color: var(--primary-primary-60, #1d56bc);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Pretendard;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 25.5px */
+  }
+}
+
 .chip {
   --borderOnColor: #000;
   --borderOffColor: #000;
