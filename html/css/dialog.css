@@ -1,0 +1,63 @@
+.dialog {
+  --padding: 20px; /* 안쪽여백 /
+    --border: 2px solid red; / 외곽선 /
+    --backdrop: rgba(0, 0, 0, 0.5); / 딤드색상 /
+    --widthSmall: 200px;
+    --widthMedium: 300px;
+    --widthLarge: 500px;
+    --baseWidth: 400px; / 기본크기 */
+
+  position: fixed;
+  inset: 50% auto auto 50%;
+  translate: -50% -50%;
+  width: var(--baseWidth, fit-content);
+  padding: var(--padding);
+  border: var(--border);
+
+  &:popover-open {
+  }
+
+  &.sm {
+    width: var(--widthSmall, fit-content);
+    &[data-width] {
+      &::before {
+        content: "sm과 data-width를 함께 사용할 수 없습니다.";
+        color: red;
+      }
+    }
+  }
+  &.md {
+    width: var(--widthMedium, fit-content);
+    &[data-width] {
+      &::before {
+        content: "sm과 data-width를 함께 사용할 수 없습니다.";
+        color: red;
+      }
+    }
+  }
+  &.lg {
+    width: var(--widthLarge, fit-content);
+    &[data-width] {
+      &::before {
+        content: "sm과 data-width를 함께 사용할 수 없습니다.";
+        color: red;
+      }
+    }
+  }
+  &.dimmed {
+    &::backdrop {
+      background: var(--backdrop, transparent);
+    }
+  }
+  &.blur {
+    &::backdrop {
+      backdrop-filter: blur(3px);
+    }
+  }
+}
+
+body:has(:popover-open) {
+  height: 100dvh;
+  height: 100vh;
+  overflow: hidden;
+}
