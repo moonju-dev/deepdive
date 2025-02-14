@@ -10,7 +10,9 @@
   border: 1px solid #ddd;
   border-radius: 8px;
   background-color: #fff;
+  box-sizing: border-box;
   transition: border-color 0.2s, box-shadow 0.2s;
+
   &::placeholder {
     color: #aaa;
     font-size: 14px;
