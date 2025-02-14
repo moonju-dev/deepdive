@@ -3,10 +3,10 @@
   --height: 40px;
   --padding: 5px;
   --borderColor: var(--border-gray-40);
-  --offColor: var(--btn-disabled-bg);
-  --offBgColor: rgba(0, 0, 0, 0.05);
-  --onColor: var(--btn-active-bg);
-  --onBgColor: #d3e1fb;
+  --offColor: #fff;
+  --offBgColor: #b4c4d6;
+  --onColor: #fff;
+  --onBgColor: var(--btn-active-bg);
   --textColor: #var(--text-gray-90);
 }
 

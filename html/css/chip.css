@@ -1,15 +1,15 @@
 .chip {
-  --borderOnColor: #000;
-  --borderOffColor: #000;
-  --fontOnColor: #fff;
-  --fontOffColor: #000;
-  --bgOnColor: #000;
-  --bgOffColor: #fff;
-  --px: 10px;
-  --py: 4px;
+  --borderOnColor: transparent;
+  --borderOffColor: transparent;
+  --fontOnColor: #1d56bc;
+  --fontOffColor: var(--text-gray-70);
+  --bgOnColor: #d3e1fb;
+  --bgOffColor: #f8f8f8;
+  --px: 12px;
+  --py: 8px;
   --fontSize: 16px;
   --rounded: 100px;
-  --gap: 5px;
+  --gap: 16px;
 
   display: flex;
   align-items: center;
@@ -22,7 +22,7 @@
     overflow: hidden;
     &:checked {
       + label {
-        border-color: var(--borderOnColor);
+        /* border-color: var(--borderOnColor); */
         background-color: var(--bgOnColor);
         color: var(--fontOnColor);
       }
