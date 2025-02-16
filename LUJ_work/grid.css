@@ -1,0 +1,164 @@
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.grid {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  /* grid-template-columns: repeat(반복횟수, 가로크기); */
+  grid-template-columns: repeat(5, 1fr);
+  /* grid-template-rows: 1fr 1fr 1fr;
+  row는 잘 안씀 colums로 정해짐 */
+  border: 1px solid blue;
+  padding: 5px;
+  > li {
+    border: 1px solid tomato;
+    padding: 5px;
+  }
+}
+
+.example1 {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid seagreen;
+  padding: 5px;
+  > div {
+    display: flex;
+    border: 1px solid salmon;
+    padding: 5px;
+    gap: 5px;
+  }
+}
+
+.example2 {
+  display: grid;
+  /* min content는 내용 만큼의 크기다 */
+  grid-template-columns: min-content min-content 1fr;
+  border: 1px solid seagreen;
+  padding: 5px;
+  > div {
+    /* 위에 줄내림 강제로 안하게 하는거 */
+    white-space: nowrap;
+    border: 1px solid salmon;
+    padding: 5px;
+  }
+  .item3 {
+    text-align: right;
+  }
+}
+
+.example3 {
+  display: flex;
+  border: 1px solid seagreen;
+  padding: 5px;
+  > div {
+    border: 1px solid salmon;
+    padding: 5px;
+  }
+  .item1 {
+    width: 50px;
+  }
+  .item2 {
+    flex: 1;
+  }
+}
+
+.example4 {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  border: 1px solid seagreen;
+  padding: 5px;
+  > div {
+    border: 1px solid salmon;
+    padding: 5px;
+  }
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 100px 100px 100px;
+  border: 1px solid blue;
+  padding: 5px;
+  > li {
+    border: 1px solid tomato;
+    padding: 5px;
+  }
+  .item1 {
+    /* 
+    justify- 수평정렬
+    align은- 수직정렬
+    >> -self가 포함되면 cell 정렬 */
+    justify-self: start;
+    align-self: start;
+  }
+}
+
+.grid3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid forestgreen;
+  padding: 5px;
+  > li {
+    border: 1px solid coral;
+    padding: 5px;
+  }
+  .item1 {
+    justify-self: start;
+  }
+  .item2 {
+    justify-self: end;
+  }
+  .item3 {
+    /* grid-column: 시작 그리드 라인, 끝 그리드 라인; */
+    grid-column: 1 /3;
+  }
+}
+
+/* 
+열병합
+grid-column
+
+행병합
+grid-row
+*/
+
+.product-list {
+  display: grid;
+  grid-template-columns: 60px 1fr 24px;
+  border: 1px solid sandybrown;
+  .thumbnail {
+    grid-row: 1 / 3;
+    /* grid-row: 시작라인번호 / 끝라인번호; */
+    background: beige;
+  }
+  .like {
+    grid-column: 3 / 4;
+    grid-row: 1 / 3;
+    background-color: seashell;
+    align-self: end;
+  }
+}
+
+.customer-support {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid sandybrown;
+  .title {
+    grid-column: 1/3;
+  }
+  .description {
+    grid-column: 1/3;
+  }
+  .button01 {
+    height: 100px;
+    align-self: end;
+  }
+  .button02 {
+    height: 100px;
+    align-self: end;
+  }
+}
