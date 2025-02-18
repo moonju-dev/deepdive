@@ -1,0 +1,11 @@
+.text-field-group{
+    display: grid;
+    gap: 8px;
+    .txt-error{
+        margin-top: -4px;
+    }
+}
+.text-error{
+    color: red;
+    font-size: 16px;
+}
