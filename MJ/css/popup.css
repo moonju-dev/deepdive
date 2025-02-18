@@ -8,13 +8,20 @@
   align-items: center;
   text-align: center;
   gap: 20px;
+<<<<<<< HEAD
+=======
+  margin-top: 20px;
+>>>>>>> 8d8785adb7c0afcd309a8580ec12bb5e1466afa0
   &::backdrop {
     background-color: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(2px);
   }
+<<<<<<< HEAD
   .h5 {
     margin: 24px 0 20px 0;
   }
+=======
+>>>>>>> 8d8785adb7c0afcd309a8580ec12bb5e1466afa0
 }
 .btn-group {
   width: 100%;
