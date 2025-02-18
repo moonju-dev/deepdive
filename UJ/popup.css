@@ -1,0 +1,91 @@
+.popup {
+  width: 560px;
+  border: none;
+  border-radius: 12px;
+  padding: 40px;
+
+  &::backdrop {
+    background-color: rgb(0, 0, 0, 0.2);
+    backdrop-filter: blur(2px);
+  }
+}
+
+.popup-header {
+  /* display: flex;
+  justify-content: space-between; */
+  align-items: center;
+}
+
+.popup-content {
+  margin-top: 32px;
+}
+
+/* 
+여백의 기준
+ component하나의 패딩을 여러개 주지 않음.(한개만 줌)
+ 여백을 줄때는 보통 위로만 주는 것이 좋음
+ */
+
+/* 
+  justift는 수평정렬
+  align은 수직정렬 */
+
+/* 
+padding은 내부를 키우고
+margin은 외부를 키움
+ */
+
+.btn-group {
+  /* display: flex;
+  justify-content: end; */
+  margin-top: 32px;
+  gap: 8px;
+}
+
+.btn-group-full {
+  display: flex;
+  button {
+    flex: 1;
+  }
+}
+
+.btn-full {
+  display: flex;
+  button {
+    flex: 1;
+  }
+}
+
+/* 
+정렬전용 클래스
+x축기준 : 좌측, 가운데, 우층 정렬
+y축기준 : 상단, 가운데, 하단 정렬
+  */
+
+.align {
+  display: flex;
+  &.right {
+    justify-content: end;
+  }
+  &.center {
+    justify-content: center;
+  }
+  &.left {
+    justify-content: start;
+  }
+  &.both {
+    justify-content: space-between;
+  }
+  &.vt {
+    align-items: start;
+  }
+  &.vm {
+    align-items: center;
+  }
+  &.vb {
+    align-items: end;
+  }
+  /* vertical-align:top ;
+    vertical-align:middle ;
+    vertical-align:bottom ; */
+}
