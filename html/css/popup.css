@@ -1,5 +1,5 @@
 .popup {
-  display: flex;
+  display: none;
   width: 328px;
   border: none;
   border-radius: 12px;
@@ -12,6 +12,9 @@
   &::backdrop {
     background-color: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(2px);
+  }
+  &:popover-open {
+    display: flex;
   }
 }
 .btn-group {
