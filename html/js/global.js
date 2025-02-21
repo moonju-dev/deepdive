@@ -11,3 +11,4 @@ includeHTML("/guide/input.html", "#input");
 includeHTML("/guide/chip.html", "#chip");
 includeHTML("/guide/dialog.html", "#dialog");
 includeHTML("/guide/badge.html", "#badge");
+includeHTML("/guide/popup.html", "#popup");
