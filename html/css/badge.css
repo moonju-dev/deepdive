@@ -1,0 +1,20 @@
+.badge {
+  display: flex;
+  height: 24px;
+  padding: 0px 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: var(--green-green-5, #eef7f0);
+  /* font */
+  color: var(--green-green-50, #008a1e);
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Pretendard;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 22.5px */
+}
