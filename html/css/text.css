@@ -1,6 +1,15 @@
 .txt-type1 {
   color: #000;
+  font-family: Pretendard;
   font-size: 17px;
   font-weight: 700;
+  line-height: 150%;
+}
+
+.txt-type2 {
+  color: var(--gray-gray-70, #555);
+  font-family: Pretendard;
+  font-size: 12px;
+  font-weight: 400;
   line-height: 150%;
 }
