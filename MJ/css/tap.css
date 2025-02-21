@@ -1,0 +1,23 @@
+.tab-type2 {
+  display: flex;
+  gap: 6px;
+  overflow: auto;
+  button {
+    display: flex;
+    height: 36px;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    color: var(--primary-primary-60, #1d56bc);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Pretendard;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 25.5px */
+  }
+  .active {
+  }
+}
