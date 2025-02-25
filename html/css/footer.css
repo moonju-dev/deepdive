@@ -1,0 +1,21 @@
+.footer {
+  width: 100%;
+  max-width: 360px;
+  display: grid;
+  grid-template-columns: 20px 1fr;
+
+  padding: 24px 24px 48px 24px;
+  gap: 16px;
+  border: 1px solid var(--gray-gray-5, #f8f8f8);
+  background: var(--gray-gray-5, #f8f8f8);
+  box-sizing: border-box;
+
+  .ico-info {
+    width: 20px;
+    height: 20px;
+  }
+
+  p {
+    margin-top: 16px;
+  }
+}
