@@ -14,3 +14,4 @@ includeHTML("/guide/badge.html", "#badge");
 includeHTML("/guide/popup.html", "#popup");
 includeHTML("/guide/list.html", "#list");
 includeHTML("/guide/header.html", "#header");
+includeHTML("/guide/card.html", "#card");
