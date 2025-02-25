@@ -60,7 +60,7 @@
 
   /* list */
   .content-list {
-    li + li {
+    > li + li {
       margin-top: 20px;
     }
     strong {
