@@ -47,3 +47,22 @@
 .icon-box {
   width: min-content;
 }
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.info-item {
+  /* display: flex;
+  flex-direction: column; */
+  gap: 16px;
+  padding: 16px;
+}
