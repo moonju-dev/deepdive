@@ -12,6 +12,10 @@
     div {
       margin-top: 16px;
     }
+
+    .h4 {
+      color: var(--text-primary-40);
+    }
   }
 
   .tag {

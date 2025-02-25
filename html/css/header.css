@@ -17,6 +17,7 @@
   /* btn */
   button {
     background-color: transparent;
+    white-space: nowrap;
   }
 
   .close {
