@@ -13,3 +13,4 @@ includeHTML("/guide/dialog.html", "#dialog");
 includeHTML("/guide/badge.html", "#badge");
 includeHTML("/guide/popup.html", "#popup");
 includeHTML("/guide/list.html", "#list");
+includeHTML("/guide/header.html", "#header");
