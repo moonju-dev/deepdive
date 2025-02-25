@@ -85,6 +85,10 @@
   padding: 16px; */
 }
 
-.icon-button {
+button {
   background-color: transparent;
 }
+
+/* .icon-button {
+  background-color: transparent;
+} */

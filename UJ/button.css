@@ -10,3 +10,34 @@
   gap: 8px;
   padding: 16px;
 }
+
+.btn-box01 {
+  height: 100px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid var(--primary-primary-50, #246beb);
+  background: var(--primary-primary-50, #246beb);
+  color: var(--gray-gray-0, #fff);
+  padding: 20px 15px 20px 15px;
+  font-family: Pretendard;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.btn-box02 {
+  height: 100px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--gray-gray-10, #f0f0f0);
+  background: var(--gray-gray-10, #f0f0f0);
+  color: var(--gray-gray-100, #000);
+  padding: 20px 15px 20px 15px;
+  font-family: Pretendard;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
