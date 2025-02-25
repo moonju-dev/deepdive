@@ -84,3 +84,7 @@
   gap: 16px;
   padding: 16px; */
 }
+
+.icon-button {
+  background-color: transparent;
+}
