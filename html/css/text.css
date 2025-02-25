@@ -1,23 +1,31 @@
 .txt-type1 {
-  color: #000;
   font-family: Pretendard;
   font-size: 17px;
   font-weight: 700;
   line-height: 150%;
+  color: #000;
 }
 
 .txt-type2 {
-  color: var(--gray-gray-70, #555);
   font-family: Pretendard;
   font-size: 12px;
   font-weight: 400;
   line-height: 150%;
+  color: var(--gray-gray-70, #555);
 }
 
 .txt-type3 {
-  color: var(--gray-gray-70, #555);
   font-family: Pretendard;
   font-size: 14px;
   font-weight: 500;
   line-height: 150%; /* 21px */
+  color: var(--gray-gray-70, #555);
+}
+
+.txt-type4 {
+  font-family: Pretendard;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 150%; /* 25.5px */
+  color: var(--gray-gray-90, #1d1d1d);
 }

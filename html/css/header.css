@@ -1,0 +1,35 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  align-items: center;
+
+  h1 {
+    text-align: center;
+  }
+
+  .first {
+    justify-self: start;
+  }
+  .last {
+    justify-self: end;
+  }
+
+  /* btn */
+  button {
+    background-color: transparent;
+  }
+
+  .close {
+    width: 24px;
+    height: 24px;
+    background: url("../../images/icon/ico-close.svg") no-repeat center center;
+    background-size: cover;
+  }
+
+  .back {
+    width: 24px;
+    height: 24px;
+    background: url("../../images/icon/ico-back.svg") no-repeat center center;
+    background-size: cover;
+  }
+}
