@@ -21,6 +21,8 @@
     .thumbnail {
       width: 46px;
       height: 46px;
+      border-radius: 8px;
+      overflow: hidden;
 
       img {
         width: 100%;
