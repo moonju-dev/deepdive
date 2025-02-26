@@ -1,0 +1,12 @@
+.check-header {
+    display: flex;
+    padding: 16px;
+  }
+  
+  .check-content {
+    padding: 11px 32px 11px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+  }
+  

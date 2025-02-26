@@ -16,3 +16,4 @@ includeHTML("/guide/list.html", "#list");
 includeHTML("/guide/header.html", "#header");
 includeHTML("/guide/card.html", "#card");
 includeHTML("/guide/footer.html", "#footer");
+includeHTML("/guide/checklabel.html", "#checklabel");
