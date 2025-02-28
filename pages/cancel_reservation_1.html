@@ -6,5 +6,38 @@
     <link rel="stylesheet" href="../html/css/global.css" />
     <title>취소요청</title>
   </head>
-  <body></body>
+  <body>
+    <div>
+      <img src="/images/icon/ico-close.svg" alt="" />
+    </div>
+    <h3 class="h3">예약을 취소하시겠습니까?</h3>
+    <div class="txt-type3">취소 후에는 철회가 불가능합니다.</div>
+    <div class="txt-type1">어떤 문제로 취소를 원하시나요?</div>
+    <div class="txt-type4">여행자 개인 사정</div>
+    <img src="/images/icon/ico-arrow-down.svg" alt="" />
+    <button class="btn-primary" popovertarget="popover">취소요청</button>
+    <button class="btn-text">문의하기</button>
+    <footer class="footer mt48">
+      <div class="ico-info">
+        <img src="../images/icon/ico-info.svg" alt="정보 아이콘" />
+      </div>
+      <div class="text-content vt">
+        <strong class="h6">예약 확정</strong>
+        <div>
+          <p class="txt-type2">
+            여행 완료 상태에서는 취소 및 환불 규정을따릅니다.<br />
+            그러나 특정 문제로 규정 외 취소 및 환불을 원하실 경우, <br />
+            구체적으로 알려주시면 마이리얼트립에서 빠른 시일 내에 <br />
+            연락드리겠습니다.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <div popover="" id="popover" class="popup">
+      <img src="../images/icon/ico-check.svg" alt="check" class="check" />
+      <h2 class="h1">예약 취소 요청 접수</h2>
+      <div class="h5">예약 취소 요청이 접수되었습니다. <br />영업일 기준 3일 이내에 마이리얼트립에서 별도로 안내드립니다.</div>
+      <button class="btn-group" popovertarget="popover" popovertargetaction="hide">확인</button>
+    </div>
+  </body>
 </html>

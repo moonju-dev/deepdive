@@ -1,6 +1,5 @@
 .footer {
   width: 100%;
-  max-width: 360px;
   display: grid;
   grid-template-columns: 20px 1fr;
 
