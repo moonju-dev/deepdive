@@ -263,3 +263,6 @@ dialog,
 .mt8 {
   margin-top: 8px;
 }
+.mx16 {
+  magin-inline: 16px;
+}
