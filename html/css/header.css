@@ -34,4 +34,12 @@
     background: url("../../images/icon/ico-back.svg") no-repeat center center;
     background-size: cover;
   }
+
+  .customer-service {
+    width: 32px;
+    height: 32px;
+    background: url("../../images/icon/ico-customer-service.svg") no-repeat
+      center center;
+    background-size: cover;
+  }
 }
