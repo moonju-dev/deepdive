@@ -1,4 +1,11 @@
 .content-wrap {
   width: 100%;
   margin: 0 auto;
+
+  .card-wrap {
+    padding-top: 12px;
+  }
+  .date {
+    padding: 16px 0;
+  }
 }
