@@ -1,6 +1,5 @@
 .card {
   width: 100%;
-  max-width: 328px;
   display: flex;
   padding: 24px;
   flex-direction: column;
@@ -8,6 +7,7 @@
   align-self: stretch;
   border-radius: 12px;
   border: 1px solid var(--gray-gray-40, #c6c6c6);
+  box-sizing: border-box;
 
   .card-header {
     display: flex;
