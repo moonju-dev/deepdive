@@ -1,5 +1,11 @@
 .tab-type1 {
   display: flex;
+  padding: 0 16px;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+  }
 
   button {
     width: 100%;
@@ -60,7 +66,13 @@
 
 .tab-type2 {
   display: flex;
+  padding: 0 16px;
   gap: 16px;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+  }
 
   button {
     display: flex;
