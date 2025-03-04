@@ -1,0 +1,27 @@
+.faq-list {
+  summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    list-style: none;
+
+    /* MEMO: rotate할 때 이미지 transition 추가 가능 */
+    /* img {
+      transition: all 0.3s;
+    } */
+  }
+
+  li {
+    padding: 14px 16px;
+  }
+
+  /* open 했을 때 스타일 추가 */
+  [open] {
+    summary {
+      img {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}
