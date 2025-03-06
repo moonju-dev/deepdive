@@ -1,4 +1,6 @@
 .faq-list {
+  margin: 12px 0;
+
   summary {
     display: flex;
     align-items: center;
