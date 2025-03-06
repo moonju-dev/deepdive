@@ -1,11 +1,9 @@
 .badge {
-  display: flex;
-  width: 60px;
+  display: inline-block;
+  width: auto;
   height: 24px;
   padding: 0px 8px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
+
   border-radius: 4px;
   text-align: center;
   leading-trim: both;
@@ -23,5 +21,9 @@
   &.danger {
     color: var(--red-red-60, #d50136);
     background: var(--red-red-5, #feecf0);
+  }
+  &.check {
+    color: var(--text-primary-100);
+    background-color: var(--badge-blue-secondary);
   }
 }
