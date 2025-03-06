@@ -15,6 +15,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 150%; /* 22.5px */
+
   &.success {
     background: var(--green-green-5, #eef7f0);
     color: var(--green-green-50, #008a1e);

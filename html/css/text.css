@@ -37,3 +37,11 @@
   line-height: 150%;
   color: #000;
 }
+
+.txt-type6 {
+  font-family: Pretendard;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 125%;
+  color: var(--gray-gray-50);
+}
