@@ -2,7 +2,6 @@
   width: 100%;
   max-width: 328px;
   display: flex;
-  padding: 24px;
   flex-direction: column;
   gap: 24px;
   align-self: stretch;
@@ -31,5 +30,15 @@
       width: 24px;
       height: 24px;
     }
+  }
+
+  /* card - detail type */
+  &.detail {
+    padding: 24px;
+  }
+
+  /* card - summary type */
+  &.summary {
+    padding: 10px 18px;
   }
 }

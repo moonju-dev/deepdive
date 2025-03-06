@@ -1,4 +1,6 @@
 .faq-list {
+  margin: 12px 0;
+
   summary {
     display: flex;
     align-items: center;
@@ -13,7 +15,10 @@
   }
 
   li {
+    display: flex;
+    align-items: center;
     padding: 14px 16px;
+    gap: 10px;
   }
 
   /* open 했을 때 스타일 추가 */
