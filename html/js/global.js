@@ -20,3 +20,4 @@ includeHTML("/guide/checklabel.html", "#checklabel");
 includeHTML("/guide/details.html", "#details");
 includeHTML("/guide/tab.html", "#tab");
 includeHTML("/guide/listTitle.html", "#listTitle");
+includeHTML("/guide/cta.html", "#cta");
