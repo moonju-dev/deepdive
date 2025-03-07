@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"figma.assetExportDirectory": "/images",
+		"figma.autocompleteBlocks": true
+	}
+}
