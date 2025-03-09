@@ -16,14 +16,19 @@
           <!-- 닫기버튼 -->
           <!-- <button class="close"><div class="sr-only">닫기</div></button> -->
         </div>
-        <h1 class="txt-type1">제목</h1>
-        <div class="last"><button class="txt-type4">문의하기</button></div>
+        <h1 class="txt-type1">예약상세</h1>
+        <!-- <div class="last"><button class="txt-type4">문의하기</button></div> -->
       </header>
     </div>
-    <div class="txt-type4">예약번호</div>
-    <div class="txt-type4">TNA-123456465494535</div>
-    <div class="card">
-      <!-- 뱃지, 더보기 -->
+
+    <div class="info-utils mx16 mt8">
+      <span class="txt-type6">예약번호</span>
+      <br />
+      <span class="txt-type6">TNA-123456465494535</span>
+    </div>
+
+    <!-- 썸네일, 제목, 화살표 -->
+    <div class="card detail no-border mt8">
       <div class="card-header align both">
         <div class="badge danger">취소요청</div>
         <button>
@@ -31,7 +36,6 @@
         </button>
       </div>
 
-      <!-- 썸네일, 제목, 화살표 -->
       <div class="card-body">
         <div class="thumbnail">
           <img src="../images/content/product-thumbnail-img.jpg" alt="바티칸 박물관 투어 썸네일 이미지" />
@@ -45,34 +49,68 @@
         </div>
       </div>
 
-      <!-- 내용 -->
-      <div class="desc">
+      <div class="box01 p16">
         <p class="h5">예약이 확정 되었습니다. 상품페이지 내 이용 안내를 참고하여 이용해 주세요.</p>
       </div>
     </div>
-    <h4 class="h4">예약 내역</h4>
-    <li class="info-item">
-      <h5 class="h5">여행일</h5>
-      <ul>
-        <li class="txt-type1">2025년 2월 5일 (화)</li>
+
+    <div class="mt8">
+      <div class="list-title">
+        <h3 class="h4">예약 내역</h3>
+      </div>
+
+      <ul class="list-item">
+        <li class="info-item">
+          <h5 class="h5">여행일</h5>
+          <ul>
+            <li class="txt-type1">2025년 2월 5일 (화)</li>
+          </ul>
+        </li>
+        <li class="info-item">
+          <h5 class="h5">옵션</h5>
+          <ul>
+            <li class="txt-type1">오전 패스트트랙 투어</li>
+          </ul>
+        </li>
+        <li class="info-item">
+          <h5 class="h5">수량</h5>
+          <ul>
+            <li class="txt-type1">2개</li>
+          </ul>
+        </li>
+        <li class="info-item">
+          <h5 class="h5">총 상품 금액</h5>
+          <ul>
+            <li class="txt-type1">120,000원</li>
+          </ul>
+        </li>
       </ul>
-    </li>
-    <li class="info-item">
-      <h5 class="h5">옵션</h5>
-      <ul>
-        <li class="txt-type1">오전 패스트트랙 투어</li>
+    </div>
+
+    <div>
+      <div class="list-title">
+        <h3 class="h4">예약 상세 정보</h3>
+      </div>
+
+      <ul class="list-item">
+        <li class="info-item icon">
+          <div class="info">
+            <h5 class="h5">예약자 정보</h5>
+            <div iv class="txt-type1">이의정</div>
+          </div>
+
+          <button>
+            <img src="../images/icon/ico-arrow-right.svg" alt="더보기 아이콘" />
+          </button>
+        </li>
       </ul>
-    </li>
-    <li class="info-item">
-      <h5 class="h5">수량</h5>
-      <ul>
-        <li class="txt-type1">2개</li>
-      </ul>
-    </li>
-    <li class="info-item">
-      <h5 class="h4">총 상품 금액</h5>
-      <span class="txt-type1">120,000원</span>
-    </li>
-    <h4 class="h4">예약 상세 정보</h4>
+      <div class="p16">
+        <p class="h5 box01 p16">예약날짜, 투숙객이름 등 예약 정보 변경이 필요한 경우 이곳에서 변경을 진행해주세요.</p>
+      </div>
+    </div>
+
+    <!-- <div class="cta">
+      <button class="btn-primary">변경 저장하기</button>
+    </div> -->
   </body>
 </html>

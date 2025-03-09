@@ -269,3 +269,7 @@ dialog,
 .mx16 {
   margin-inline: 16px;
 }
+
+.p16 {
+  padding: 16px;
+}

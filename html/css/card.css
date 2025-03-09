@@ -93,3 +93,9 @@
     border: none;
   }
 }
+
+.box01 {
+  border-radius: 4px;
+  border: 1px solid var(--gray-gray-5, #f8f8f8);
+  background: var(--gray-gray-5, #f8f8f8);
+}

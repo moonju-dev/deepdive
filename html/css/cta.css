@@ -3,4 +3,10 @@
   bottom: 0;
   background-color: #fff;
   padding: 24px 16px;
+  &.two {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+    justify-content: space-between;
+  }
 }

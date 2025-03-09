@@ -85,6 +85,7 @@
 }
 
 .btn-outline {
+  display: flex;
   display: inline-flex;
   height: 64px;
   padding: 0px 24px;
