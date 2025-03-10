@@ -46,10 +46,18 @@
   color: var(--gray-gray-50);
 }
 
-.txt-type6 {
+.txt-type7 {
   font-family: Pretendard;
   font-size: 15px;
   font-weight: 400;
   line-height: 150%;
   color: var(--text-gray-60);
+}
+
+.txt-type8 {
+  font-family: Pretendard;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 150%; /* 19.5px */
+  color: var(--gray-gray-50, #8e8e8e);
 }
