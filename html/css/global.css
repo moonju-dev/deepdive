@@ -25,9 +25,10 @@
 @import url("./details.css");
 @import url("./tab.css");
 @import url("./listTitle.css");
+@import url("./cta.css");
+@import url("./calendar.css");
 
 /* page */
 @import url("./component.css");
 @import url("./changeReservation.css");
 @import url("./qna.css");
-@import url("./cta.css");

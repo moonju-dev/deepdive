@@ -6,5 +6,120 @@
     <link rel="stylesheet" href="../html/css/global.css" />
     <title>예약 변경_1</title>
   </head>
-  <body></body>
+  <body>
+    <div class="content-wrap change">
+      <header class="header">
+        <div class="first">
+          <!-- 뒤로가기 버튼 -->
+          <button class="close"><div class="sr-only">닫기</div></button>
+        </div>
+        <h1 class="txt-type1">내 여행</h1>
+        <div class="last"><button class="txt-type4"></button></div>
+      </header>
+
+      <div class="list-content">
+        <div class="list-title">
+          <h3 class="h4">현재 예약 정보</h3>
+        </div>
+
+        <ul class="list-item">
+          <li class="info-item">
+            <h5 class="h5">여행일</h5>
+            <ul>
+              <li class="txt-type1">2025년 2월 5일 (화)</li>
+            </ul>
+          </li>
+          <li class="info-item">
+            <h5 class="h5">옵션</h5>
+            <ul>
+              <li class="txt-type1">오전 패스트트랙 투어</li>
+            </ul>
+          </li>
+          <li class="info-item">
+            <h5 class="h5">수량</h5>
+            <ul>
+              <li class="txt-type1">2개</li>
+            </ul>
+          </li>
+        </ul>
+
+        <div class="list-title">
+          <h3 class="h4">변경 예약 정보</h3>
+        </div>
+
+        <ul class="list-item">
+          <li class="info-item">
+            <h5 class="h5">수량</h5>
+
+            <select class="select">
+              <option option="option1">1명</option>
+              <option option="option2">2명</option>
+              <option option="option3">3명</option>
+              <option option="option4">4명</option>
+              <option option="option5">5명</option>
+              <option option="option5">6명 이상</option>
+            </select>
+          </li>
+          <li class="info-item">
+            <h5 class="h5">옵션</h5>
+            <ul>
+              <select class="select">
+                <option option="option1">오전 패스트트랙 투어</option>
+                <option option="option2">오후 패스트트랙 투어</option>
+              </select>
+            </ul>
+          </li>
+          <li class="info-item">
+            <h5 class="h5">여행일</h5>
+            <ul>
+              <label for="date sr-only"></label>
+              <input type="date" class="calendar" />
+            </ul>
+          </li>
+        </ul>
+
+        <div class="list-title">
+          <h3 class="h4">추가 결제 정보</h3>
+        </div>
+
+        <ul class="list-item detail">
+          <li class="info-item">
+            <strong class="txt-type7">수량 변경 금액</strong>
+            <span class="txt-type4">130,000원</span>
+          </li>
+
+          <li class="info-item">
+            <strong class="txt-type5">총 추가 결제 금액</strong>
+            <span class="txt-type5">130,000원</span>
+          </li>
+        </ul>
+
+        <div class="check-header mt12">
+          <input type="checkbox" id="check10" class="checkbox" />
+          <label for="check10"> 전체 약관 동의 </label>
+        </div>
+        <div class="check-content">
+          <input type="checkbox" id="check20" class="checkbox" /><label
+            for="check20"
+          >
+            개인정보 수집 및 이용 동의(필수)
+          </label>
+          <input type="checkbox" id="check30" class="checkbox" /><label
+            for="check30"
+          >
+            개인정보 제공 동의 (필수)
+          </label>
+          <input type="checkbox" id="check40" class="checkbox" /><label
+            for="check40"
+          >
+            마케팅 이용 동의 (필수)
+          </label>
+        </div>
+      </div>
+
+      <div class="cta">
+        <button class="btn-primary" disabled>130,000원 결제하기</button>
+      </div>
+    </div>
+  </body>
 </html>

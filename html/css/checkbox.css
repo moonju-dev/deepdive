@@ -4,7 +4,7 @@
   --checkFontSize: 15px;
   --checkBeforeColor: var(--text-gray-90);
   --checkAfterColor: var(--text-gray-90);
-  --checkPl: 20px;
+  --checkPl: 28px;
   --checkHeight: 20px;
 }
 .checkbox {
