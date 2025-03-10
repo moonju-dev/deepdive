@@ -244,6 +244,9 @@ dialog,
     display: none;
   }
 }
+.mt60 {
+  margin-top: 60px;
+}
 
 .mt48 {
   margin-top: 48px;

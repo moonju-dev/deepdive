@@ -181,9 +181,10 @@
   }
 }
 .btn-2low-group {
-  width: 100%;
   display: flex;
-  margin: 0px 16px;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0px 16px;
   justify-content: space-between;
   align-items: center;
   gap: 6px;
