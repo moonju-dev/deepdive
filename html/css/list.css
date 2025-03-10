@@ -6,7 +6,6 @@
   .info-item {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     flex-direction: column;
     gap: 16px;
     padding: 16px;
@@ -45,6 +44,20 @@
       color: var(--gray-gray-70, #555);
       border: 1px solid var(--gray-gray-70, #555);
       background: var(--gray-gray-5, #f8f8f8);
+    }
+  }
+
+  /* type - detail */
+  &.detail {
+    li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+
+      strong {
+        margin-bottom: 0;
+      }
     }
   }
 }
