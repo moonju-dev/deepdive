@@ -7,13 +7,11 @@
   border: 1px solid var(--gray-gray-60, #717171);
   box-sizing: border-box;
 
-  &::placeholder {
-    font-family: Pretendard;
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 150%; /* 25.5px */
-    color: var(--gray-gray-90, #1d1d1d);
-  }
+  font-family: Pretendard;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 150%; /* 25.5px */
+  color: var(--gray-gray-90, #1d1d1d);
 
   /* focuse */
   &:focus {
