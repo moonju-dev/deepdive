@@ -3,10 +3,17 @@
   bottom: 0;
   background-color: #fff;
   padding: 24px 16px;
+  box-sizing: border-box;
+
   &.two {
-    display: flex;
-    gap: 8px;
     width: 100%;
+    display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+
+    button {
+      width: calc(50% - 4px);
+    }
   }
 }

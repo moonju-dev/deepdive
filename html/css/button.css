@@ -90,7 +90,8 @@
   height: 64px;
   padding: 0px 24px;
   border-radius: 8px;
-  background: var(--primary-primary-50, #eff5ff);
+  background-color: var(--gray-gray-0, #fff);
+  /* background: var(--primary-primary-50, #eff5ff); */
   border: 2px solid var(--primary-primary-50, #246beb); /* 테두리 추가 */
   justify-content: center;
   align-items: center;
