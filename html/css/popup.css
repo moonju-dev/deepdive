@@ -30,8 +30,6 @@
   background: var(--primary-primary-5, #eff5ff);
 
   color: var(--primary-primary-60, #1d56bc);
-  leading-trim: both;
-  text-edge: cap;
   font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
