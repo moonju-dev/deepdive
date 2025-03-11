@@ -5,54 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../html/css/global.css" />
     <title>고객 지원실</title>
+    <!-- script -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="../js/sj.js" defer></script>
   </head>
   <body>
-    <div id="header">
-      <header class="header">
-        <div class="first">
-          <!-- 뒤로가기 버튼 -->
-          <button class="back"><div class="sr-only">뒤로 가기</div></button>
-
-          <!-- 닫기버튼 -->
-          <!-- <button class="close"><div class="sr-only">닫기</div></button> -->
+    <div class="content-wrap qna2">
+      <div id="header">
+        <header class="header">
+          <div class="first">
+            <!-- 뒤로가기 버튼 -->
+            <button class="back"><div class="sr-only">뒤로 가기</div></button>
+          </div>
+          <h1 class="txt-type1">고객 지원실</h1>
+        </header>
+      </div>
+      <div class="mx16 ani01">
+        <h4 class="h4 mt32 stagger-item">
+          이의정님,<br />무엇을 도와드릴까요?
+        </h4>
+        <div class="txt-type8 stagger-item">
+          자주 묻는 질문에서 궁금한 점을 더 빠르게 해결해보세요
         </div>
-        <h1 class="txt-type1">고객 지원실</h1>
-
-          <!-- 상담 버튼 -->
-          <!-- <button class="customer-service"></button> -->
+      </div>
+      <div class="mt32 ani02">
+        <div class="btn-2low-group">
+          <button class="btn-2low primary">자주 묻는 질문</button>
+          <button class="btn-2low natural">채팅 상담</button>
         </div>
-      </header>
+      </div>
+      <ul class="list-item mt60 ani03" style="background-color: #f8f8f8">
+        <li class="info-item icon">
+          <div class="txt-type1">공지사항</div>
+          <button>
+            <img src="../images/icon/ico-arrow-right.svg" alt="더보기 아이콘" />
+          </button>
+        </li>
+        <li class="info-item icon">
+          <div class="txt-type1">불편 접수</div>
+          <button>
+            <img src="../images/icon/ico-arrow-right.svg" alt="더보기 아이콘" />
+          </button>
+        </li>
+        <li class="info-item icon">
+          <div class="txt-type1">약관 및 정책</div>
+          <button>
+            <img src="../images/icon/ico-arrow-right.svg" alt="더보기 아이콘" />
+          </button>
+        </li>
+      </ul>
     </div>
-  <div class="mx16">
-    <h4 class="h4 mt32">이의정님,<br>무엇을 도와드릴까요?</h4>
-    <div class="txt-type8">자주 묻는 질문에서 궁금한 점을 더 빠르게 해결해보세요</div>
-  </div>
-    <div class="mt32">
-    <div class="btn-2low-group">
-      <button class="btn-2low primary">자주 묻는 질문</button>
-      <button class="btn-2low natural">채팅 상담</button>
-    </div>
-  </div>
-  <ul class="list-item mt60" style="background-color: #f8f8f8;">
-  <li class="info-item icon">
-      <div class="txt-type1">공지사항</div>
-    <button>
-      <img src="../images/icon/ico-arrow-right.svg" alt="더보기 아이콘">
-    </button>
-  </li>
-  <li class="info-item icon">
-    <div class="txt-type1">불편 접수</div>
-  <button>
-    <img src="../images/icon/ico-arrow-right.svg" alt="더보기 아이콘">
-  </button>
-</li>
-<li class="info-item icon">
-  <div class="txt-type1">약관 및 정책</div>
-<button>
-  <img src="../images/icon/ico-arrow-right.svg" alt="더보기 아이콘">
-</button>
-</li>
-</ul>
-
   </body>
 </html>

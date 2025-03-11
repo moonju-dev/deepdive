@@ -1,4 +1,4 @@
-// * =============== change reservation =============== * //
+// * =============== change reservation 1 =============== * //
 gsap
   .timeline()
   .from(".change .tab-type1", {
@@ -33,4 +33,44 @@ gsap
     y: 20,
     stagger: 0.3,
     ease: "power1.inOut",
+  });
+
+// * =============== qna 2 =============== * //
+gsap
+  .timeline()
+  .from(".qna2 .ani01 .stagger-item", {
+    y: 20,
+    opacity: 0,
+    stagger: 0.3,
+    ease: "power1.inOut",
+
+    scrollTrigger: {
+      trigger: ".ani1",
+      // markers: true,
+      start: "top center",
+    },
+  })
+  .from(".qna2 .ani02 div", {
+    y: 20,
+    opacity: 0,
+    ease: "power1.inOut",
+
+    scrollTrigger: {
+      trigger: ".qna2 .ani02",
+      // markers: true,
+      start: "top center",
+      // scrub: true,
+    },
+  })
+  .from(".qna2 .ani03", {
+    y: 20,
+    opacity: 0,
+    ease: "power1.inOut",
+
+    scrollTrigger: {
+      trigger: ".qna2 .ani03",
+      // markers: true,
+      start: "-20% 70%",
+      // scrub: true,
+    },
   });
