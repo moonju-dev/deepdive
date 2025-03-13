@@ -4,6 +4,7 @@
   background-color: #fff;
   padding: 24px 16px;
   box-sizing: border-box;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
 
   &.two {
     width: 100%;
