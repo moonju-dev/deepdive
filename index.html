@@ -52,10 +52,9 @@
             <tr class="list">
               <td>디자인시스템</td>
               <td>
-                <a href="./html/component.html" target="_blank"
-                  >component.html</a
-                >
+                <a href="./html/component.html" target="_blank">component.html</a>
               </td>
+
               <td>2025.02.28</td>
               <td>2025.00.00</td>
               <td>x</td>
@@ -73,7 +72,7 @@
             <tr class="list">
               <td>취소요청</td>
               <td>
-                <a href="./pages/cancel_reservation_1.html" target="_blank"
+                <a href="./html/pages/cancel_reservation_1.html" target="_blank"
                   >cancel_reservation_1.html</a
                 >
               </td>
@@ -91,7 +90,7 @@
             <tr class="list">
               <td>예약 상세</td>
               <td>
-                <a href="./pages/cancel_reservation_2.html" target="_blank"
+                <a href="./html/pages/cancel_reservation_2.html" target="_blank"
                   >cancel_reservation_2.html</a
                 >
               </td>
@@ -110,7 +109,7 @@
             <tr class="list">
               <td>내 여행</td>
               <td>
-                <a href="./pages/change_reservation_1.html" target="_blank"
+                <a href="./html/pages/change_reservation_1.html" target="_blank"
                   >change_reservation_1.html</a
                 >
               </td>
@@ -128,7 +127,7 @@
             <tr class="list">
               <td>예약 상세_1</td>
               <td>
-                <a href="./pages/change_reservation_2.html" target="_blank"
+                <a href="./html/pages/change_reservation_2.html" target="_blank"
                   >change_reservation_2.html</a
                 >
               </td>
@@ -146,7 +145,7 @@
             <tr class="list">
               <td>예약 변경_1</td>
               <td>
-                <a href="./pages/change_reservation_3.html" target="_blank"
+                <a href="./html/pages/change_reservation_3.html" target="_blank"
                   >change_reservation_3.html</a
                 >
               </td>
@@ -164,7 +163,7 @@
             <tr class="list">
               <td>예약 변경_2</td>
               <td>
-                <a href="./pages/change_reservation_4.html" target="_blank"
+                <a href="./html/pages/change_reservation_4.html" target="_blank"
                   >change_reservation_4.html</a
                 >
               </td>
@@ -182,7 +181,7 @@
             <tr class="list">
               <td>예약 상세_2</td>
               <td>
-                <a href="./pages/change_reservation_5.html" target="_blank"
+                <a href="./html/pages/change_reservation_5.html" target="_blank"
                   >change_reservation_5.html</a
                 >
               </td>
@@ -201,7 +200,7 @@
             <tr class="list">
               <td>문의하기</td>
               <td>
-                <a href="./pages/qna_1.html" target="_blank">qna_1.html</a>
+                <a href="./html/pages/qna_1.html" target="_blank">qna_1.html</a>
               </td>
               <td>2025.02.28</td>
               <td>2025.00.00</td>
@@ -217,7 +216,7 @@
             <tr class="list">
               <td>고객 지원실</td>
               <td>
-                <a href="./pages/qna_2.html" target="_blank">qna_2.html</a>
+                <a href="./html/pages/qna_2.html" target="_blank">qna_2.html</a>
               </td>
               <td>2025.02.28</td>
               <td>2025.00.00</td>
@@ -233,7 +232,7 @@
             <tr class="list">
               <td>자주 묻는 질문</td>
               <td>
-                <a href="./pages/qna_3.html" target="_blank">qna_3.html</a>
+                <a href="./html/pages/qna_3.html" target="_blank">qna_3.html</a>
               </td>
               <td>2025.02.28</td>
               <td>2025.00.00</td>
@@ -284,7 +283,7 @@
       body {
         padding: 0 20px;
         font-size: 16px;
-        font-family: "Noto Sans KR", sans-serif;
+        font-family: 'Noto Sans KR', sans-serif;
       }
       p {
         line-height: 1.5;
@@ -398,7 +397,7 @@
                 width: 3px;
                 height: 100%;
                 background-color: #d2d6de;
-                content: "";
+                content: '';
               }
             }
           }
@@ -445,33 +444,33 @@
         &.r {
           background-color: #a55eea;
           &::before {
-            content: "R";
+            content: 'R';
           }
         }
         &.w {
           background-color: #20bf6b;
           &::before {
-            content: "W";
+            content: 'W';
           }
         }
         &.m {
           background-color: #f7b731;
           &::before {
-            content: "M";
+            content: 'M';
           }
         }
         &.end {
           background-color: #eb3b5a;
           font-weight: bold;
           &::before {
-            content: "완";
+            content: '완';
           }
         }
         &.ing {
           background-color: #2d98da;
           font-weight: bold;
           &::before {
-            content: "진";
+            content: '진';
           }
         }
         &.modify {
@@ -481,7 +480,7 @@
           background-color: #39c4cd;
           text-align: center;
           &::before {
-            content: "수정";
+            content: '수정';
           }
         }
         &.pending {
@@ -489,7 +488,7 @@
           font-weight: bold;
           text-align: center;
           &::before {
-            content: "전";
+            content: '전';
           }
         }
         span {
@@ -546,13 +545,13 @@
       }
     </style>
     <script>
-      const content = document.querySelector(".content table");
-      const graph = document.querySelector("#progress em");
-      const graphTotal = document.querySelector("#total");
-      const total = content.querySelectorAll(".list").length;
-      const finish = content.querySelectorAll(".list .end").length;
+      const content = document.querySelector('.content table');
+      const graph = document.querySelector('#progress em');
+      const graphTotal = document.querySelector('#total');
+      const total = content.querySelectorAll('.list').length;
+      const finish = content.querySelectorAll('.list .end').length;
       const progress = Math.floor((finish / total) * 100);
-      graph.style.width = progress + "%";
+      graph.style.width = progress + '%';
       graphTotal.innerHTML = `
             ${finish} / ${total}page <span class='percent'>진행률 ${progress}%</span>
         `;
