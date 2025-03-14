@@ -91,16 +91,3 @@ gsap.fromTo(
     },
   }
 );
-
-gsap.from(".ani5", {
-  opacity: 0,
-  y: 40,
-  stagger: 0.2,
-  scrollTrigger: {
-    trigger: ".ani5",
-    //markers: true,
-    start: "100px center",
-    end: "bottom center",
-    scrub: true,
-  },
-});
