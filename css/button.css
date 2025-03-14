@@ -19,6 +19,7 @@
   cursor: pointer;
   text-decoration: none;
   box-sizing: border-box;
+  transition: all 0.3s;
 
   &:hover {
     background: var(--primary-primary-60, #1d56bc);
@@ -56,6 +57,11 @@
   &.min-width {
     min-width: 62px;
     padding-inline: 16px;
+  }
+
+  &.disabled {
+    background: var(--gray-gray-30, #d8d8d8);
+    color: var(--gray-gray-60, #717171);
   }
 }
 

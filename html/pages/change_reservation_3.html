@@ -142,8 +142,45 @@
       </div>
 
       <div class="cta">
-        <a class="btn-primary" href="/" disabled>130,000원 결제하기</a>
+        <a class="btn-primary disabled" href="/">130,000원 결제하기</a>
       </div>
     </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const checkAll = document.getElementById("check10"); // 전체 동의
+        const checkboxes = document.querySelectorAll(".check-content .checkbox"); // 개별 체크박스
+        const ctaButton = document.querySelector(".btn-primary"); // CTA 버튼 (a 태그)
+
+        // 모든 필수 체크박스가 체크되었는지 확인하는 함수
+        function updateCTA() {
+          const allChecked = [...checkboxes].every((checkbox) => checkbox.checked);
+          if (allChecked) {
+            ctaButton.classList.remove("disabled"); // 활성화
+          } else {
+            ctaButton.classList.add("disabled"); // 비활성화
+          }
+        }
+
+        // 전체 동의 체크 시 모든 체크박스 선택 or 해제
+        checkAll.addEventListener("change", function () {
+          checkboxes.forEach((checkbox) => {
+            checkbox.checked = checkAll.checked;
+          });
+          updateCTA();
+        });
+
+        // 개별 체크박스 변경 시 CTA 버튼 상태 업데이트
+        checkboxes.forEach((checkbox) => {
+          checkbox.addEventListener("change", function () {
+            // 전체 동의 체크박스 상태도 업데이트
+            checkAll.checked = [...checkboxes].every((cb) => cb.checked);
+            updateCTA();
+          });
+        });
+
+        // 초기 상태에서도 체크된 값이 있으면 업데이트 실행
+        updateCTA();
+      });
+    </script>
   </body>
 </html>
