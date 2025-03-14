@@ -18,6 +18,8 @@
   border: none;
   cursor: pointer;
   text-decoration: none;
+  box-sizing: border-box;
+
   &:hover {
     background: var(--primary-primary-60, #1d56bc);
   }
